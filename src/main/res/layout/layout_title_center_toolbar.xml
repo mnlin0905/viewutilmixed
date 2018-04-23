@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_title"
+    style="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:paddingStart="@dimen/view_padding_margin_8dp"
+    android:paddingEnd="@dimen/view_padding_margin_8dp"
+    android:layout_gravity="center"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:singleLine="true"
+    tools:text="标题"/>

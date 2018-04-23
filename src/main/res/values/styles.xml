@@ -1,0 +1,19 @@
+<resources>>
+    <!--底部弹出框的style-->
+    <style name="ActivityDialogStyle">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!--window框中间显示-->
+    <style name="ActivityProgressViewAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_activity_center_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_activity_center_exit</item>
+    </style>
+</resources>
